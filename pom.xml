@@ -97,6 +97,16 @@
 						</configuration>
 					</execution>
 				</executions>
+				<configuration>
+					<excludes>
+						<exclude>**/com/demo/**/controller/**</exclude>
+						<exclude>**/com/demo/**/exception/**</exclude>
+						<exclude>**/com/demo/**/DemoApplication.class</exclude>
+						<exclude>**/com/demo/**/SwaggerConfig.class</exclude>
+						<exclude>**/com/demo/**/model/**</exclude>
+						<exclude>**/com/demo/**/dto/**</exclude>
+					</excludes>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
